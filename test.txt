@@ -1,1 +1,1 @@
-this is a test ting
+heres how to create a repo on a local machine and then push it to github. 1.) mkdir <repo name> && cd <repo name>, git init. to add a test file do echo text > test.txt. to add a dir in the rpo to mkdir test and echo <file name and content> > test/testfile.txt. now we stage -> git add . -> git commit -m message. and then finally to add it to your github do gh repo create <repo name> --public --source=. --push. :)
